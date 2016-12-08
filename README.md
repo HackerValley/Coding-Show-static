@@ -20,16 +20,18 @@
       img/
     pages/
       admin/            后台管理
-        request.html      项目审核页面，申请加入项目
-        skill.html        技能审核页面
-        professor.html    专家审核页面
+        request.html      项目审核页面，[胜利]
+        skill.html        技能审核页面  [yiran]
+        professor.html    专家审核页面  [ruichu]
       user/             用户管理
-        profile.html      个人信息页面
-      add.html          添加页面
-      modi.html         修改页面
-      publish.html      我发布的项目
-      develop.html      我开发的项目
-    index.html        首页
+        profile.html      个人信息页面  [eyea] 
+        log.html                       [eyea] 
+      add.html          添加页面        【larry】
+      modi.html         修改页面        [larry]
+      publish.html      我发布的项目    [yaojiang]
+      develop.html      我开发的项目    [yaojiang]
+      detail.html       项目详情页面    [eyea]
+    index.html        首页            [suhanyu]
 ```    
 2. 分拆页面  
   确定各个页面的 布局 和 功能  
