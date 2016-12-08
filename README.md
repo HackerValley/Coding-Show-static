@@ -1,7 +1,8 @@
 # Coding-Show-static
 静态页面版本的Coding-Show。  
 所有的页面 [在线图片](http://www.processon.com/diagraming/582a93cbe4b00c4fc8ae282f) 点击查看    
-DOCS_[页面预览](./docs/allpages.md)
+DOCS_[页面预览](./docs/allpages.md)  
+BootStrap的 [编码规范](http://codeguide.bootcss.com/) 有点长，先看完吧。着手写的时候有犹豫的地方，就想得到回来查。  
 
 ## 目标
 1. 创建静态页面
