@@ -1,6 +1,6 @@
 # Coding-Show-static
 静态页面版本的Coding-Show。  
-所有的页面 [在线图片](http://www.processon.com/diagraming/582a93cbe4b00c4fc8ae282f) 点击查看    
+所有的页面 [在线图片](https://www.processon.com/view/link/584a3a04e4b031ce542d2a5a) 点击查看    
 DOCS_[页面预览](./docs/allpages.md)
 
 ## 目标
