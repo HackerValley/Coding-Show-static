@@ -1,6 +1,7 @@
 # Coding-Show-static
 静态页面版本的Coding-Show。  
-所有的页面 [在线图片](http://www.processon.com/diagraming/582a93cbe4b00c4fc8ae282f) 点击查看  
+所有的页面 [在线图片](https://www.processon.com/view/link/584a3a04e4b031ce542d2a5a) 点击查看    
+DOCS_[页面预览](./docs/allpages.md)
 
 ## 目标
 1. 创建静态页面
@@ -20,19 +21,25 @@
       img/
     pages/
       admin/            后台管理
-        request.html      项目审核页面，[胜利]
+        request.html      项目审核页面，[胜利] 
         skill.html        技能审核页面  [yiran]
         professor.html    专家审核页面  [ruichu]
       user/             用户管理
         profile.html      个人信息页面  [eyea] 
         log.html                       [eyea] 
-      add.html          添加页面        【larry】
+      add.html          添加页面        [larry]
       modi.html         修改页面        [larry]
       publish.html      我发布的项目    [yaojiang]
       develop.html      我开发的项目    [yaojiang]
       detail.html       项目详情页面    [eyea]
     index.html        首页            [suhanyu]
 ```    
+ 文档跳转：  
+   - [doc 后台管理页面](./docs/page-admin.md)  
+   - [doc 注册相关页面](./docs/page-reg.md)  
+   - [doc 列表相关页面](./docs/page-list.md)  
+   - [doc 详情修改页面](./docs/page-detail-and-curd.md)  
+
 2. 分拆页面  
   确定各个页面的 布局 和 功能  
   [详细见 word 文档](https://github.com/HackerValley/Coding-Show-prototype-readme/blob/master/prototype/11-7%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/%E5%BC%80%E5%8F%91%E8%AF%B4%E6%98%8E%E4%B9%A6.docx)  
