@@ -1,16 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
+
 <head>
-    <meta charset="UTF-8">
-    <title>技能审核</title>
-    <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>技能审核</title>
+  <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <style type="text/css">
+  .fr {
+    float: right
+  }
+  
+  .button-top {
+    margin-bottom: 1px;
+  }
+  
+  .search-box {
+    margin: 20px auto 40px;
+  }
+  
+  .skills span {
+    display: inline-block;
+  }
+  
+  .skills span.name,
+  .skills span.wechat,
+  .skills span.skill {
+    padding-right: 2em;
+  }
+  
+  .skills span.name::before {
+    content: 'name: '
+  }
+  
+  .skills span.wechat::before {
+    content: '微信: '
+  }
+  
+  .skills span.skill::before {
+    content: ' '
+  }
+  </style>
 </head>
+
 <body>
-<!--开始的地方放置 layout 部分-->
-<!--下边一行是 emmet 在编辑器中，行末按 TAB 键 展开结构-->
-.container>.row>.col-sm-10.col-sm-offset-1>h1{标题}+hr+.row>(.col-sm-3>p{左侧})+.col-sm-9>p{右侧}
-<script>
-    /* 空的 js 部分*/
-</script>
+  <nav role="navigation" class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="#" class="navbar-brand">Coding-Show</a></li>
+        <li><a href="/" class="">开源项目</a></li>
+        <li><a href="#" class="">运营的项目</a></li>
+        <li><a href="#" class="">专业用户入口</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./add.html" class="">添加项目</a></li>
+        <li><a href="./publish.html" class="active">发布的项目</a></li>
+        <li><a href="./develop.html" class="">开发的项目</a></li>
+        <li><a href="./reg.html" class="">注册</a></li>
+        <li><a href="./login.html" class="">登入</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <h2>
+        后台管理
+         <span class="fr button-top">
+           <a href="#" title="expert" class="btn btn-info">专家审核</a>
+           <a href="#" title="skill" class="btn btn-info">技能审核</a>
+           <a href="#" title="project" class="btn btn-info">项目审核</a>
+           <a href="#" title="index" class="btn btn-info">返回首页</a>
+         </span>
+      </h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+        <div class="row search-box">
+          <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+            <div class="input-group">
+              <input type="text" class="form-control" name="" value="" placeholder="请在此搜索姓名">
+              <span class="input-group-btn">
+                  <input type="button" name="" value="搜索" class="btn btn-default" >
+                </span>
+            </div>
+          </div>
+        </div>
+        <div class="list-group skills">
+          <div class="list-group-item">
+            <span class="fr">
+              <a href="#" class="btn btn-xs btn-warning">通过</a>
+              <a href="#" class="btn btn-xs btn-warning">拒绝</a>
+            </span>
+            <span class="name">xxxxx</span>
+            <span class="wechat">xxxxx</span>
+            <span class="skill">前端</span>
+          </div>
+          <div class="list-group-item">
+            <span class="fr">
+              <a href="#" class="btn btn-xs btn-warning">通过</a>
+              <a href="#" class="btn btn-xs btn-warning">拒绝</a>
+            </span>
+            <span class="name">xxxxx</span>
+            <span class="wechat">xxxxx</span>
+            <span class="skill">前端</span>
+          </div>
+          <div class="list-group-item">
+            <span class="fr">
+              <a href="#" class="btn btn-xs btn-warning">通过</a>
+              <a href="#" class="btn btn-xs btn-warning">拒绝</a>
+            </span>
+            <span class="name">xxxxx</span>
+            <span class="wechat">xxxxx</span>
+            <span class="skill">前端</span>
+          </div>
+          <div class="list-group-item">
+            <span class="fr">
+              <a href="#" class="btn btn-xs btn-warning">通过</a>
+              <a href="#" class="btn btn-xs btn-warning">拒绝</a>
+            </span>
+            <span class="name">xxxxx</span>
+            <span class="wechat">xxxxx</span>
+            <span class="skill">前端</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-1"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container-fluid">
+      <hr>
+      <p class="text-muted text-center">Power by HACKER VALLEY @ 2016</p>
+    </div>
+  </div>
 </body>
+
 </html>
