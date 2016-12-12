@@ -1,59 +1,50 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>技能审核</title>
-    <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-    /*Modi.vue*/
-
-    body {
-        background-color: #fefef5;
-    }
-
-    .fr {
-        float: right
-    }
-
-    .navbar ul {
-        float: left;
-    }
-
-    .navbar ul li {
-        float: left;
-    }
-
-    .navbar ul.navbar-right {
-        float: right;
-    }
-
-    .button-top {
-      margin-bottom: 1px;
-    }
-    .search-box{
-      margin: 20px auto 40px;
-    }
-    .skills span{
-      display: inline-block;
-    }
-    .skills span.name,
-    .skills span.wechat,
-    .skills span.skill{
-      padding-right: 2em;
-    }
-    .skills span.name::before{content:'name: '}
-    .skills span.wechat::before{content:'微信: '}
-    .skills span.skill::before{content:' '}
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>技能审核</title>
+  <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <style type="text/css">
+  .fr {
+    float: right
+  }
+  
+  
+  .button-top {
+    margin-bottom: 1px;
+  }
+  
+  .search-box {
+    margin: 20px auto 40px;
+  }
+  
+  .skills span {
+    display: inline-block;
+  }
+  
+  .skills span.name,
+  .skills span.wechat,
+  .skills span.skill {
+    padding-right: 2em;
+  }
+  
+  .skills span.name::before {
+    content: 'name: '
+  }
+  
+  .skills span.wechat::before {
+    content: '微信: '
+  }
+  
+  .skills span.skill::before {
+    content: ' '
+  }
+  </style>
 </head>
-<body>
-  <!-- css -->
-<script type="text/javascript">
 
-</script>
-  <!-- js -->
+<body>
   <nav role="navigation" class="navbar navbar-default">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
@@ -75,12 +66,12 @@
     <div class="row">
       <h2>
         后台管理
-         <small class="fr button-top">
+         <span class="fr button-top">
            <a href="#" title="expert" class="btn btn-info">专家审核</a>
            <a href="#" title="skill" class="btn btn-info">技能审核</a>
            <a href="#" title="project" class="btn btn-info">项目审核</a>
            <a href="#" title="index" class="btn btn-info">返回首页</a>
-         </small>
+         </span>
       </h2>
       <hr>
     </div>
@@ -88,14 +79,12 @@
       <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
         <div class="row search-box">
           <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
-            <form class="text-center" action="/search-name" method="post">
-              <div class="input-group">
-                <input type="text" class="form-control" name="" value="" placeholder="请在此搜索姓名">
-                <span class="input-group-btn">
+            <div class="input-group">
+              <input type="text" class="form-control" name="" value="" placeholder="请在此搜索姓名">
+              <span class="input-group-btn">
                   <input type="button" name="" value="搜索" class="btn btn-default" >
                 </span>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="list-group skills">
